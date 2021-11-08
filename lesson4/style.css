@@ -1,0 +1,38 @@
+.background{
+    background-color: rgb(228, 156, 228);
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 600px;
+    top: 180px;
+    border-radius: 20%;
+}
+.rectangle{
+    background-color: rgb(228, 156, 228);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 134px;
+    top: 150px;
+    border-radius: 20%;
+    border: 15px solid white
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    border: 15px solid white
+
+}
+.circle1{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 235px;
+    top: 25px;
+    background-color: white ;
+    border-radius: 100%;
+}

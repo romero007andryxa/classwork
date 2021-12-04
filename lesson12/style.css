@@ -1,0 +1,38 @@
+    li {
+        display: inline-block;
+    }
+    .users-photo li img{
+
+        border: 2px solid rgb(216, 215, 215);
+        position: relative;
+        top: -20px;
+    }
+    .users-photo>li{
+        margin-left: -20px;
+    }
+    .block{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .uk-text-meta{
+        position: relative;
+        top: -20px;
+    }
+    hr{
+        width: 804px;
+        position: relative;
+        left: -40px;
+    }
+    .users-photo > li:hover > img {
+        transform: scale(1.2);
+      }
+      .uk-card-footer{
+          width: 724px;
+          height: 39px;
+          position: relative;
+          left: -40px;
+      }
+      .cardd{
+          height: 975px;
+      }

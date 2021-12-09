@@ -82,7 +82,7 @@ p{
     top: -191px;
     margin-left: 980px;
 }
-.language a{
+.ru{
     font-size: 16px;
     color: grey;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -90,6 +90,19 @@ p{
     writing-mode: vertical-lr;
     text-decoration: none;
     transform: rotate(0.5turn);
+    position: relative;
+    top: 26px;
+}
+.eng{
+    font-size: 16px;
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    transform: rotate(0.5turn);
+    position: relative;
+    left: -21px;
 }
 .language a:hover{
     color: black;
@@ -257,12 +270,16 @@ h3{
     font-weight: 600;
 
 }
-.btn button{
-    width: 180px;
-    height: 42px;
+.btn a{
+    width: 175px;
+    height: 36px;
     background-color: black;
     border-radius: 25px;
     border: black solid;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn{
     display: flex;
